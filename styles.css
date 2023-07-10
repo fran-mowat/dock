@@ -1,0 +1,43 @@
+*{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.one, footer{
+    background-color: #1F2937;
+}
+
+.one .header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.one .header-link, .one .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.one .maintext{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.one nav{
+    display: flex;
+}
+
+.one nav p{
+    flex: 1;
+}
+
+.one nav .header-logo{
+    flex: 3 3 0;
+}
+
+button, .four{
+    background-color: #3882F6;
+}
+
+.three{
+    background-color: #E5E7EB;
+}
