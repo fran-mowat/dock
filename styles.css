@@ -109,6 +109,8 @@ button:hover{
 .two .item{
     flex: 1;
     padding: 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
 }
 
 .two img{
