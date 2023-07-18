@@ -12,9 +12,14 @@ section{
     background-color: #1F2937;
 }
 
+.one{
+    padding: 3% 10% 3% 10%;
+}
+
 .one .header-logo{
     color: #F9FAF8;
     font-size: 24px;
+    padding-top: 0%;
 }
 
 .one .header-link, .one .subtext {
@@ -26,6 +31,8 @@ section{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
 .one nav{
@@ -42,17 +49,36 @@ section{
 
 .one .intro{
     display: inline-block;
-    width: 48%;
+    width: 45%;
+    padding-top: 0px;
+    vertical-align: top;
+    margin-top: 0px;
 }
 
 .one .image{
     display: inline-block;
-    width: 48%;
     vertical-align: top;
+}
+
+.one .image img{
+    width: 500px;
+    height: 333px;
+    vertical-align: middle;
 }
 
 button, .four{
     background-color: #3882F6;
+}
+
+button{
+    border-radius: 6px;
+    padding: 10px 24px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: white;
+    border-color: #3882F6;
 }
 
 .three{
