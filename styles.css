@@ -103,16 +103,16 @@ button:hover{
 .two .container{
     display: flex;
     justify-content: center;
-    padding: 5%;
+    padding: 3% 5% 0%;
 }
 
 .two .item{
     flex: 1;
-    width: 200px;
+    padding: 10px;
 }
 
 .two img{
-    height: 300px;
+    width: 100%;
 }
 
 .three{
