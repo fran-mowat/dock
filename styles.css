@@ -46,7 +46,7 @@ section{
 .one .header-link{
     margin-top: 10px;
     flex: 1;
-    align-content: cen10er;
+    align-content: center;
 }
 
 .one .maintext{
@@ -98,6 +98,21 @@ button{
 button:hover{
     background-color: white;
     border-color: #3882F6;
+}
+
+.two .container{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.two .item{
+    flex: 1;
+    width: 200px;
+}
+
+.two img{
+    height: 300px;
 }
 
 .three{
