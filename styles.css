@@ -99,11 +99,12 @@ button{
 .one button{
     border-color: #3882F6;
     cursor: pointer;
+    border-style: solid;
 }
 
-button:hover{
-    background-color: white;
-    border-color: #3882F6;
+.one button:hover{
+    background-color: rgb(41, 103, 203);
+    border-color: rgb(41, 103, 203);
 }
 
 .two .container{
@@ -195,6 +196,7 @@ button:hover{
     border-color: white;
     color: white;
     cursor: pointer;
+    border-style: solid;
 }
 
 .four .text {
@@ -212,7 +214,6 @@ button:hover{
 }
 
 .four button:hover{
-    border-color: #3882F6;
     color:#3882F6;
     background-color: white;
 }
