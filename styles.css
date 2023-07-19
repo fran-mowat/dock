@@ -61,6 +61,10 @@ section{
     line-height: 140%;
 }
 
+.one div .container{
+    align-content: center;
+}
+
 .one .intro{
     display: inline-block;
     width: 43%;
@@ -164,16 +168,17 @@ button:hover{
 }
 
 .four{
-    padding: 2% 100px;
     background-color: white;
     color: white;
 }
 
 .four .main{
     height: 100px;
-    width: 1000px;
-    align-content: center;
+    width: 800px;
     border-radius: 6px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .four p{
