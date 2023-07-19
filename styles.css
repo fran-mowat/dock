@@ -46,7 +46,7 @@ section{
 .one .header-link{
     margin-top: 10px;
     flex: 1;
-    align-content: center;
+    text-align: center;
 }
 
 .one .maintext{
