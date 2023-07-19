@@ -103,7 +103,7 @@ button:hover{
 .two .container{
     display: flex;
     justify-content: center;
-    padding: 3% 5% 0% 5%;
+    padding: 3% 5%;
 }
 
 .two .item{
@@ -143,6 +143,7 @@ button:hover{
 
 .three{
     background-color: #E5E7EB;
+    padding: 2% 100px 3%;
 }
 
 .three p{
@@ -151,10 +152,11 @@ button:hover{
 
 .three .quote{
     font-size: 36px;
-    font-style: light, italic;
+    font-style: italic;
+    font-weight: 200;
 }
 
 .three .reference{
     font-size: 18px;
-    font-style: bolder;
+    font-weight: bolder;
 }
