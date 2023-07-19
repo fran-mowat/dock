@@ -103,28 +103,30 @@ button:hover{
 .two .container{
     display: flex;
     justify-content: center;
-    padding: 3% 5% 0%;
+    padding: 3% 5% 0% 5%;
 }
 
 .two .item{
     flex: 1;
     margin: 10px;
     position: relative; 
+    padding-bottom: 0px;
 }
 
 .two img{
     width: 100%;
+    height: 100%;
 }
 
 .two p{
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 0%;
-    font-size: 24px;
+    padding-top: 18%;
+    padding-bottom: 18%;
+    font-size: 30px;
     position: absolute;
     text-align: center;
     align-content: center;
-    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -132,7 +134,6 @@ button:hover{
     visibility: hidden;
     opacity: 0;
     width: 100%;
-    height: 100%;
 }
 
 .two .item:hover p{
