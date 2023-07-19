@@ -140,14 +140,7 @@ button{
     visibility: hidden;
     opacity: 0;
     width: 100%;
-}
-
-.two .title{
-    font-size: 30px;
-}
-
-.two .description{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .two .item:hover p{
