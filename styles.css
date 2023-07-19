@@ -144,3 +144,17 @@ button:hover{
 .three{
     background-color: #E5E7EB;
 }
+
+.three p{
+    color: #1F2937;
+}
+
+.three .quote{
+    font-size: 36px;
+    font-style: light, italic;
+}
+
+.three .reference{
+    font-size: 18px;
+    font-style: bolder;
+}
