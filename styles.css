@@ -38,7 +38,7 @@ section{
     width: 71px;
 }
 
-.one .header-link, .one .subtext {
+.one .header-link, .one .subtext, .four .body {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -164,9 +164,10 @@ button:hover{
 .four{
     padding: 2% 100px;
     background-color: white;
+    color: white;
 }
 
-.four div{
+.four .main{
     height: 100px;
     width: 1000px;
     align-content: center;
@@ -176,4 +177,30 @@ button:hover{
 .four p{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.four .head{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.four button{
+    border-color: white;
+}
+
+.four .text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.four .button{
+    display: inline-block;
+    padding-left: 70px;
+    padding-top: 10px
+}
+
+.four button :hover{
+    border-color: #3882F6;
+    color: white;
 }
