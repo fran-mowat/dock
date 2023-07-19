@@ -130,7 +130,6 @@ button{
     margin-bottom: 0px;
     padding-top: 18%;
     padding-bottom: 18%;
-    font-size: 30px;
     position: absolute;
     text-align: center;
     align-content: center;
@@ -141,6 +140,14 @@ button{
     visibility: hidden;
     opacity: 0;
     width: 100%;
+}
+
+.two .title{
+    font-size: 30px;
+}
+
+.two .description{
+    font-size: 18px;
 }
 
 .two .item:hover p{
@@ -208,7 +215,7 @@ button{
 
 .four .button{
     display: inline-block;
-    padding-left: 70px;
+    padding-left: 90px;
     justify-content: center;
     padding-top: 30px;
 }
