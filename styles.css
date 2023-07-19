@@ -81,7 +81,7 @@ section{
     vertical-align: middle;
 }
 
-button, .four{
+button, .four div{
     background-color: #3882F6;
 }
 
@@ -159,4 +159,21 @@ button:hover{
 .three .reference{
     font-size: 18px;
     font-weight: bolder;
+}
+
+.four{
+    padding: 2% 100px;
+    background-color: white;
+}
+
+.four div{
+    height: 100px;
+    width: 1000px;
+    align-content: center;
+    border-radius: 6px;
+}
+
+.four p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
