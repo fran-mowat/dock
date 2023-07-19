@@ -62,7 +62,7 @@ section{
 }
 
 .one div .container{
-    align-content: center;
+    margin: auto;
 }
 
 .one .intro{
@@ -183,12 +183,12 @@ button:hover{
 
 .four p{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 7px;
 }
 
 .four .head{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .four button{
