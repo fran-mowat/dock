@@ -1,3 +1,11 @@
+:root{
+    --light: #E5E7EB;
+    --navy: #1F2937;
+    --off-white: #F9FAF8;
+    --blue: #3882F6;
+    --blue-hover: rgb(41, 103, 203);
+}
+
 *{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -13,7 +21,7 @@ section{
 }
 
 .one, footer{
-    background-color: #1F2937;
+    background-color: var(--navy);
 }
 
 .one{
@@ -39,6 +47,10 @@ section{
 }
 
 @media screen and (min-width: 576px) {
+    .one #mobile-menu{
+        display: none;
+    }
+
     .one #desktop-menu{
         display: flex; 
         height: 80px;
@@ -46,31 +58,32 @@ section{
     }
 
     .one #destop-menu .header-logo {
-        color: #F9FAF8;
+        color: var(--off-white);
         font-size: 24px;
         margin-top: 0px;
         flex: 3 3 0;
         align-content: center;
     }
 
-    .one #mobile-menu{
-        display: none;
+    .one #desktop-menu .header-link{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .one #desktop-menu .header-link a{
+        color: var(--light);
+        text-decoration: none;
+        padding-left: 30px;
     }
 }
 
 .one .header-link, .one .subtext, .four .body {
-    color: #E5E7EB;
+    color: var(--light);
     font-size: 18px;
 }
 
-.one .header-link{
-    margin-top: 10px;
-    flex: 1;
-    text-align: center;
-}
-
 .one .maintext{
-    color: #F9FAF8;
+    color: var(--off-white);
     font-size: 48px;
     font-weight: bolder;
     margin-top: 0px;
@@ -107,7 +120,7 @@ section{
 }
 
 button, .four div{
-    background-color: #3882F6;
+    background-color: var(--blue);
 }
 
 button{
@@ -117,14 +130,14 @@ button{
 }
 
 .one button{
-    border-color: #3882F6;
+    border-color: var(--blue);
     cursor: pointer;
     border-style: solid;
 }
 
 .one button:hover{
-    background-color: rgb(41, 103, 203);
-    border-color: rgb(41, 103, 203);
+    background-color: var(--blue-hover);
+    border-color: var(--blue-hover);
 }
 
 .two .container{
@@ -170,12 +183,12 @@ button{
 }
 
 .three{
-    background-color: #E5E7EB;
+    background-color: var(--light);
     padding: 2% 100px 3%;
 }
 
 .three p{
-    color: #1F2937;
+    color: var(--navy);
 }
 
 .three .quote{
@@ -235,7 +248,7 @@ button{
 }
 
 .four button:hover{
-    color:#3882F6;
+    color:var(--blue);
     background-color: white;
 }
 
