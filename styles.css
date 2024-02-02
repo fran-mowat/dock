@@ -20,22 +20,42 @@ section{
     padding: 1% 6% 3% 6%;
 }
 
-.one nav{
-    display: flex;
+.one img{
+    height: 42px;
+}
+
+.one #desktop-menu{
+    display: none;
+}
+
+.one #mobile-menu{
+    display: flex; 
+    justify-content: space-between;
     height: 80px;
 }
 
-.one .header-logo{
-    color: #F9FAF8;
-    font-size: 24px;
-    margin-top: 0px;
-    flex: 3 3 0;
-    align-content: center;
+.one #mobile-menu .hamburger-logo{
+    flex: 0; 
 }
 
-.one .header-logo img{
-    height: 42px;
-    width: 71px;
+@media screen and (min-width: 576px) {
+    .one #desktop-menu{
+        display: flex; 
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    .one #destop-menu .header-logo {
+        color: #F9FAF8;
+        font-size: 24px;
+        margin-top: 0px;
+        flex: 3 3 0;
+        align-content: center;
+    }
+
+    .one #mobile-menu{
+        display: none;
+    }
 }
 
 .one .header-link, .one .subtext, .four .body {
@@ -63,7 +83,7 @@ section{
 
 .one div .container{
     margin: auto;
-}
+} 
 
 .one .intro{
     display: inline-block;
