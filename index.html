@@ -5,29 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <script src="./script.js" defer></script>
     <title>dock</title>
 </head>
 <body>
     <section class="one">
         <nav id="desktop-menu">
-            <span class="header-logo"><img src="./images/logo.jpg" alt="dock company logo"></span>
-            <span>
-                <span class="header-link"><a href="#">Pricing</a></span>
-                <span class="header-link"><a href="#">Contact us</a></span>
-                <span class="header-link"><a href="#">Login</a></span>
-            </span>
+            <img src="./images/logo.jpg" alt="dock company logo">
+            <ul>
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Contact us</li>
+            </ul>
         </nav> 
-        <nav id="mobile-menu">
-            <div class="header-logo"><img src="./images/logo.jpg" alt="dock company logo"></div>
-            <div class="hamburger-logo"><img src="./images/hamburger.svg" alt="hamburger menu icon"></div>
+
+        <nav>
+            <div id="mobile-menu">
+                <img src="./images/logo.jpg" alt="dock company logo">
+                <img id="hamburger" src="./images/hamburger.svg" alt="hamburger menu icon">
+            </div>
+            
             <div id="dropdown">
                 <ul>
+                    <li>About</li>
                     <li>Pricing</li>
                     <li>Contact us</li>
-                    <li>Login</li>
                 </ul>
             </div>
         </nav>
+
         <div class="container">
             <div class="intro"> 
                 <p class="maintext">The platform for better project management</p>
