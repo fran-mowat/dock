@@ -212,57 +212,50 @@ button:hover{
     font-weight: bolder;
 }
 
-
-
-
-
 .four{
-    background-color: white;
     color: white;
-}
-
-.four div{
     background-color: var(--blue);
+    border-radius: 5px;
+    margin: 50px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-.four .main{
-    height: 100px;
-    width: 800px;
-    border-radius: 6px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.text{
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .four{
+        justify-content: space-between;
+    }
+
+    .text{
+        display: block;
+    }
 }
 
 .four p{
-    margin-top: 0px;
+    margin: 0;
+}
+
+.four p:first-of-type{
+    font-weight: bold;
+    font-size: 28px;
     margin-bottom: 7px;
 }
 
-.four .head{
-    font-weight: bold;
-    font-size: 28px;
+.four .button{
+    align-content: center;
 }
 
 .four button{
-    border-color: white;
+    border: 2px solid white;
     color: white;
-    cursor: pointer;
-    border-style: solid;
-}
-
-.four .text {
-    display: inline-block;
-    vertical-align: top;
-    padding: 15px;
-    border-radius: 6px;
-}
-
-.four .button{
-    display: inline-block;
-    padding-left: 90px;
-    justify-content: center;
-    padding-top: 30px;
+    height: fit-content;
 }
 
 .four button:hover{
@@ -273,8 +266,7 @@ button:hover{
 footer{
     color: white;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
     background-color: var(--navy);
-    margin-bottom: 0px;
+    font-size: 14px;
 }
